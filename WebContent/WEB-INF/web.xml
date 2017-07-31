@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>FinalProject</display-name>
+  <servlet>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>test.FormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProductsServlet</servlet-name>
+    <servlet-class>test.ProductsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductsServlet</servlet-name>
+    <url-pattern>/ProductsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Loginservlet</servlet-name>
+    <servlet-class>test.Loginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Loginservlet</servlet-name>
+    <url-pattern>/Loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>test.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>test.ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePassw</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BrandListServlet</servlet-name>
+    <servlet-class>test.BrandListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BrandListServlet</servlet-name>
+    <url-pattern>/BrandListServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

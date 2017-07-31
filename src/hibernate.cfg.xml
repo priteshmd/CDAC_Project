@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "G:\JARS\DTD_Files/hibernate-configuration-3.0.dtd">
+
+<!-- Configuring the Hibernate Coonections -->
+
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- Dialect : For connecting any hibernate application with the database, 
+			you must specify the SQL dialects. There are many Dialects classes defined 
+			for RDBMS in the org.hibernate.dialect package. -->
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+
+		<!-- The JDBC driver class. -->
+		<property name="hibernate.connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+
+		<!-- The JDBC URL to the database instance. Assume "songlibrary" is the 
+			database name -->
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost:3306/mall_db
+		</property>
+		
+		<!-- The database username. -->
+		<property name="hibernate.connection.username">
+			root
+		</property>
+		<!-- The database password. -->
+		<property name="hibernate.connection.password">
+		</property>
+		
+		
+		<!-- List of XML/Persistent Object mapping files -->
+		
+		
+		<mapping resource="products.hbm.xml" />
+		<mapping resource="users.hbm.xml" />
+		<mapping resource="notify.hbm.xml" />
+
+	</session-factory>
+</hibernate-configuration>

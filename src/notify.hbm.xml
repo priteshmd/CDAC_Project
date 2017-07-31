@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "G:\JARS\DTD_Files/hibernate-mapping-3.0.dtd">
+
+
+
+
+<hibernate-mapping>
+	<class name="test.Notify" table="notify">
+	<id name="email" column="email">
+		<generator class="assigned"></generator>
+		</id>
+		<property name="un_id" column="un_id"></property>
+	
+		</class>
+</hibernate-mapping>
