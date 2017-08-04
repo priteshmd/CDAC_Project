@@ -1,32 +1,8 @@
-		Instructions:
+Virtual Window shopping is a Web Application built on Java platform.
+It is basically a website of a mall, displaying products of different shops. Shopkeeper can login and insert,update, his/her products.
+Normal users can view different products available, compare them,sort them according to their needs.If a product is out of stock that is shown to the user, and he/she can register email with that particular product. Later when the product is back in stock he/she will get a mail stating that the product is back in stock.
+There is no concept of cart and payment. Its just a simple website.
 
-Don't create new project, make changes in your working project only.
--------------------------------------------------------------
-import notify.sql in your database
--------------------------------------------------------------
-JARS to be added: activation.jar,mail.jar,org.json-0.0.1.jar
-
--------------------------------------------------------------
-files to be replaced:
-	All WebContent Files 
-	Do not replace src > test > java files OR hibernate files
--------------------------------------------------------------
-New files added (FYI):
-
-WebContent :->
-	map.jsp
-	mail.jsp
-	sendmail.jsp
-	notify.jsp
-	footer.html
-	genderList.jsp
-src > test :->
-	BrandListServlet.java
-	Notify.java
-src :->
-	notify.hbm.xml(add your hibernate path)
-
-	Add this line in hibernate.cfg.xml:-
-
-	<mapping resource="notify.hbm.xml" />
+Technologies used: JSP,Servlet,JDBC,Hibernate,MySQL
+Tool used:Eclipse IDE Mars 2.0
 
