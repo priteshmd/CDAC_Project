@@ -8,3 +8,4 @@ Tool used:Eclipse IDE Mars 2.0
 
 To run this project, you will have to import JARS: Hibernate,mysql,jstl,servlet,mail,activation,json
 Also give proper path of the configuration files in all the cfg.xml & hbm.xml files
+Create a database mall_db and import the 3 sql files:notify.sql,product.sql,shop.sql
