@@ -6,3 +6,5 @@ There is no concept of cart and payment. Its just a simple website.
 Technologies used: JSP,Servlet,JDBC,Hibernate,MySQL
 Tool used:Eclipse IDE Mars 2.0
 
+To run this project, you will have to import JARS: Hibernate,mysql,jstl,servlet,mail,activation,json
+Also give proper path of the configuration files in all the cfg.xml & hbm.xml files
