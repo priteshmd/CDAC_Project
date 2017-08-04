@@ -21,8 +21,8 @@ $(document).ready(function() {
 <%
 	
 	String[] to = request.getParameterValues("val");
-	String USER_NAME = "knwb4ugo";  // GMail user name (just the part before "@gmail.com")
-	 String PASSWORD = "shreddars"; // GMail password
+	String USER_NAME = "";  // GMail user name (just the part before "@gmail.com")
+	 String PASSWORD = ""; // GMail password
 	
 
 
